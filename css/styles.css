@@ -1,0 +1,57 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+
+}
+.text-per-month{
+    background-color:  #EEEEEE;
+     color: #546269;
+     width: 260px;
+}
+.sub-text{
+    font-weight: 400;
+font-size: 24px;
+line-height: 1.5;
+text-align: center;
+color: #263238;
+width: 260px;
+}
+ h1,h2,h3,p{
+    margin: 0;
+ }
+ ul{
+    margin: 0;
+    padding: 0;
+   
+ }
+ button{
+    cursor: pointer;
+ }
+ .headerco{
+    width: 1378px;
+    padding: 0 20px;
+    margin: 0 auto;
+ }
+ .header-nav{
+    display: flex;
+    gap: 236px;
+ }
+ .nav-list{
+    display: flex;
+    gap: 50px;
+ }
+ .nav-list-link{
+    display: block;
+    padding: 20px;
+
+ }
